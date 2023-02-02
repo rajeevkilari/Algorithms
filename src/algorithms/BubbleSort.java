@@ -10,7 +10,6 @@ public static int[] bubbleSort(int[] arr) {
 				arr[j]=arr[j]+arr[j+1];
 				arr[j+1]=arr[j]-arr[j+1];
 				arr[j]=arr[j]-arr[j+1];
-				arr[j] = arr[i];
 			}
 		}
 	}
